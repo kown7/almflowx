@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "adeclm-docs"
+version = "0.0.1"
+description = "Initial documentation work"
+authors = ["Kristoffer Nordström <kristoffer@nordstroem.ch>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "adeclm_docs"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sltoo = "^25.1.0b5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
