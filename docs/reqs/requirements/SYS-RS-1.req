@@ -1,0 +1,11 @@
+Name: Name
+Topic: ReqsDocument
+Description: Manage requirements in a document driven process.
+Rationale: Store all meta-information with your code. Make updating and visualizing the requirements a simple task.
+Status: not done
+Owner: customers
+Effort estimation: 3
+Invented on: 2022-01-11
+Invented by: default
+Type: requirement
+Solved by: SYS-RS-2 SYS-RS-3 SYS-RS-4 SYS-RS-5 SYS-RS-6 SYS-RS-7 SYS-RS-8 SYS-RS-9 SYS-RS-10 SYS-RS-11 SYS-RS-13

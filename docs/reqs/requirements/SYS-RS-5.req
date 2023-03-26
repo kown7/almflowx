@@ -1,0 +1,10 @@
+Name: VCS Interface
+Topic: ReqsDocument
+Description: Ensure changes are commited to the underlying VCS.
+Rationale: Simple interface/reminder that changes need to be stored or updated.
+Status: not done
+Owner: customers
+Effort estimation: 1
+Invented on: 2022-01-11
+Invented by: default
+Type: requirement

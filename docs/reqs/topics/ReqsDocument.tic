@@ -1,4 +1,4 @@
-Name: project
-Text: This is placeholder for some introductional text.
+Name: Software Requirements Specification
+Text: This document describes the requirements defined for new decentralized \emph{ALM} tool.. 
 IncludeRequirements: full
-SubTopic: WhatsAbout
+Text: This should show the requirements and use-cases for a new decentralized tool.

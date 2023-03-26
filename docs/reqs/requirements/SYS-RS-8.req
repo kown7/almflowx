@@ -1,0 +1,10 @@
+Name: Rationale for Requirement
+Topic: ReqsDocument
+Description: User can provide rationale for changes
+Rationale: Allow space for optional explanatory elaborations
+Status: not done
+Owner: customers
+Effort estimation: 1
+Invented on: 2022-01-11
+Invented by: default
+Type: requirement

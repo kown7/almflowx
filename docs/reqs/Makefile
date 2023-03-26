@@ -1,7 +1,6 @@
 .PHONY: all
-.PHONY: all_html
 all: artifacts/specification.pdf artifacts/req-graph1.png \
-	artifacts/req-graph2.png all_html
+	artifacts/req-graph2.png
 
 
 # Adding new files (especially requirements) can not automatically
@@ -30,8 +29,6 @@ CALL_RMTOO=${RMTOO_CALL} -j file://${RMTOO_CONFIG}
 #  The file .rmtoo_dependencies is created by rmtoo itself.
 #
 include .rmtoo_dependencies
-
-all_html: ${OUTPUT_HTML}
 
 # And how to make the dependencies
 .rmtoo_dependencies:

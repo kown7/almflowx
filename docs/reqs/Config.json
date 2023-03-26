@@ -1,4 +1,10 @@
 {
+    "import": {
+        "xls": {
+            "import_filename": "import/specification.xlsx",
+            "requirement_ws": "Specification"
+        }
+    },
     "processing": {
         "analytics": {
             "stop_on_errors": false
@@ -17,7 +23,7 @@
             "directory": "requirements"
         },
         "inventors": [
-            "flonatel"
+            "default"
         ],
         "stakeholders": [
             "development",
@@ -34,7 +40,6 @@
 		        "requirements_dirs": [ "requirements" ],
 			"topics_dirs": [ "topics" ],
 			"topic_root_node": "ReqsDocument",
-			"constraints_dirs": [ "constraints" ],
 			"testcases_dirs": [ "testcases" ] }
 		]
 	    ],

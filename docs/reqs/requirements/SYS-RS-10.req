@@ -1,0 +1,10 @@
+Name: Self-Contained Requirements
+Topic: ReqsDocument
+Description: Images, tables and other figures are part of a requirement 
+Rationale: Propagate changes into traceability
+Status: not done
+Owner: customers
+Effort estimation: 1
+Invented on: 2022-01-11
+Invented by: default
+Type: requirement

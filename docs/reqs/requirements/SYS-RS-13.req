@@ -1,0 +1,10 @@
+Name: Multilevel Traceability
+Topic: ReqsDocument
+Description: Trace requirements across various levels of systems.
+Rationale: Keep traceability across all levels
+Status: not done
+Owner: customers
+Effort estimation: 1
+Invented on: 2022-01-11
+Invented by: default
+Type: requirement

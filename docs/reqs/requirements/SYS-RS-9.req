@@ -1,0 +1,10 @@
+Name: Composed Requirements
+Topic: ReqsDocument
+Description: Provide composite requirements whose parts already indicate architectural decisions 
+Rationale: Allow for atomic sub-requirements
+Status: not done
+Owner: customers
+Effort estimation: 1
+Invented on: 2022-01-11
+Invented by: default
+Type: requirement

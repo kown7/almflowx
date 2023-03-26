@@ -1,0 +1,10 @@
+Name: Document Versioning
+Topic: ReqsDocument
+Description: Documents should be versioned with a VCS 
+Rationale: Using git tag to provide a new release.
+Status: not done
+Owner: customers
+Effort estimation: 1
+Invented on: 2022-01-11
+Invented by: default
+Type: requirement
