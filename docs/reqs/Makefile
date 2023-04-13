@@ -24,6 +24,9 @@ RMTOO_CONTRIB_DIR ?= $(shell rmtoo-contrib-dir)
 
 CALL_RMTOO=${RMTOO_CALL} -j file://${RMTOO_CONFIG}
 
+# Needed for local sty files
+export TEXINPUTS := ".:../latex//:${TEXINPUTS}:"
+
 #
 # Dependency handling
 #  The file .rmtoo_dependencies is created by rmtoo itself.

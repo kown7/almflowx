@@ -1,0 +1,29 @@
+Name: Basic Review Process for IEC 61508
+Topic: ReqsDocument
+Description: Define and control the review process over all defined stages.
+
+  \begin{figure}[H]
+  \begin{center}
+  \begin{tikzpicture}
+    \umlbasicstate[x=-3]{Author}
+    \umlbasicstate[y=-2, x=0, name=VER]{Verification}
+    \umlbasicstate[y=-4, x=3, name=Release, fill=green!20]{Release}
+    \umlbasicstate[y=-7, x=3, name=VAL]{Validation}
+    \umlstatefinal[y=-9, x=3, name=GUT]
+
+    \umlHVtrans[arg=start review]{Author}{VER}
+    \umlHVtrans[arg=rejection]{VER}{Author}
+    \umlHVtrans[arg=passed]{VER}{Release}
+    \umltrans{Release}{VAL}
+    \umlHVtrans[arg=rejection]{VAL}{Author}
+    \umlVHtrans{VAL}{GUT}
+  \end{tikzpicture}
+  \caption{Basic review process for a controlled document}
+  \end{center}\end{figure}
+
+Status: not done
+Owner: customers
+Effort estimation: 1
+Invented on: 2023-04-13
+Invented by: default
+Type: requirement
