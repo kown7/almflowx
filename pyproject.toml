@@ -5,7 +5,7 @@ description = "Initial documentation work"
 authors = ["Kristoffer Nordström <kristoffer@nordstroem.ch>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "adeclm_docs"}]
+packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
