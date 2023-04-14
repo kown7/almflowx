@@ -1,0 +1,9 @@
+Name: Sign Review Stages
+Topic: ReqsDocument
+Description: For every stage there needs to be a sign-off. Some stages can happen in parallel, but they need all to complete for given stages.
+Status: not done
+Owner: customers
+Effort estimation: 1
+Invented on: 2023-04-14
+Invented by: default
+Type: requirement

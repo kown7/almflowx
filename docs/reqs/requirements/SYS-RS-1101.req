@@ -7,13 +7,17 @@ Description: Define and control the review process over all defined stages.
   \begin{tikzpicture}
     \umlbasicstate[x=-3]{Author}
     \umlbasicstate[y=-2, x=0, name=VER]{Verification}
+    \umlbasicstate[y=-2, x=-6, name=Q]{Quality}
     \umlbasicstate[y=-4, x=3, name=Release, fill=green!20]{Release}
     \umlbasicstate[y=-7, x=3, name=VAL]{Validation}
     \umlstatefinal[y=-9, x=3, name=GUT]
 
     \umlHVtrans[arg=start review]{Author}{VER}
+    \umlHVtrans[arg=Q review]{Author}{Q}
+    \umlHVtrans[arg=rejection]{Q}{Author}
     \umlHVtrans[arg=rejection]{VER}{Author}
     \umlHVtrans[arg=passed]{VER}{Release}
+    \umlVHtrans[arg=passed]{Q}{Release}
     \umltrans{Release}{VAL}
     \umlHVtrans[arg=rejection]{VAL}{Author}
     \umlVHtrans{VAL}{GUT}
